@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page - TréSor</title>
+    <link rel="stylesheet" href="order.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <h1 class="title">TréSor</h1>
+                <link rel="icon" href="college website/img.jpg">
+                <form action="#" class="search-form">
+                    <input type="search" placeholder="Search for products" class="search-input">
+                    <button type="submit" class="search-button">Search</button>
+                </form>
+                <div class="icons">
+                    <i class="fa-solid fa-heart icon"></i>
+                    <i class="fa-solid fa-user icon"></i>
+                    <i class="fa-solid fa-cart-shopping icon"></i>
+                </div>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="men.html">MEN</a></li>
+                    <li><a href="women.html">WOMEN</a></li>
+                    <li><a href="kid.html">KIDS</a></li>
+                    <li><a href="foot.html">FOOTWEAR</a></li>
+                    <li><a href="about.html" target="_blank">ABOUT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="order-summary">
+            <h2>Your Order Summary</h2>
+            <div class="order-items">
+              
+                <div class="order-item">
+                    <img src="men1.jpg" alt="Item 1">
+                    <div class="item-details">
+                        <p class="item-name">Stylish and comfortable</p>
+                        <p class="item-price">₹580</p>
+                        <p class="item-quantity">Quantity: 1</p>
+                    </div>
+                </div>
+               
+            </div>
+
+            <div class="order-total">
+                <p>Total: ₹580</p>
+            </div>
+
+            
+
+            <div class="checkout-form">
+                <h3>Shipping Details</h3>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" rows="4" required></textarea>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <button type="submit" class="checkout-button">Proceed to Checkout</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+
+</body>
+</html>
